@@ -33,7 +33,7 @@ async fn main() {
         // draw_text(&format!("X: {:.2} Y: {:.2}\nVelocity: ({:.2}, {:.2})", pos.x, pos.y, vel.x, vel.y), screen_width()/2.0, screen_height()/2.0, 12.0, BLACK);
 
 
-        draw_rectangle(screen_width()/2.0, screen_height()/2.0, 100.0, 100.0, RED);
+        // draw_rectangle(screen_width()/2.0, screen_height()/2.0, 100.0, 100.0, RED);
 
         next_frame().await;
     }
